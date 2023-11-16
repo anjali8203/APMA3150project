@@ -1,0 +1,18 @@
+---
+title: "starbucks"
+author: "Mehta, Anjali; ADD NAMES HERE "
+date: "2023-11-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+drink_name <- read.csv("starbucks_drinkMenu_expanded.csv")
+drink_name
+```
+
+ 
+ 
